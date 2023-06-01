@@ -1,0 +1,58 @@
+.card {
+  background-color: rgb(230, 226, 226);
+  border-radius: 10pt 10pt 10pt 10pt;
+  display: grid;
+  grid-template: 1fr 3fr/ 1fr 4fr;
+  width: 200pt;
+  height: 300pt;
+  margin: 5pt 0pt 5pt 0pt;
+
+}
+.cardImageContainer {
+  background-color: rgb(255, 255, 255);
+  width: 170pt;
+  height: 170pt;
+  margin: 10pt 15pt 10pt 15pt;
+  border-radius: 100%;
+  display: flex;
+  grid-row: 1/2;
+  
+}
+
+.cardImageContainer img {
+  width: 100%;
+  /* background-color: black; */
+  border-radius: 100%;
+}
+
+.cardText {
+  background-color: rgb(174, 179, 179);
+  grid-row: 2/3;
+  color: #ffffff;
+  text-overflow: ellipsis;
+  border-radius: 10pt 10pt 10pt 10pt;
+  /* text-indent: 10pt; */
+  margin: 10pt;
+  overflow: hidden;
+  
+}
+
+.cardText h2 {
+  margin-left: 10pt;
+  margin-right: 10pt;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.cardText h4 {
+  margin-left: 10pt;
+  margin-right: 10pt;
+  text-overflow: ellipsis;
+}
+.cardText:hover {
+  overflow:scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+

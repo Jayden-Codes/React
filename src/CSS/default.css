@@ -1,0 +1,8 @@
+.mainTag {
+    background-color: rgb(230, 226, 226);
+    width: 100%;
+    border-radius: 10pt;
+    padding: 5pt;
+    margin-left: -5pt;
+    text-align: center;
+}

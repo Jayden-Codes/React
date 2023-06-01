@@ -1,0 +1,66 @@
+.navBar {
+  background-color: rgb(230, 226, 226);
+  border-radius: 10pt 10pt 10pt 10pt;
+  display: grid;  
+  grid-template: 2fr 1fr/ 1fr 4fr;
+}
+
+.navBar .upperNav {
+  grid-column: 2/4;
+  background-color: rgb(174, 179, 179);
+  border-radius: 10pt 10pt 0pt 0pt;
+  display: flex;
+}
+.navBar .upperNav .navBarBtn {
+  /* background-color: aqua; */
+  align-self: first baseline;
+  grid-column: 4/4;
+  padding: 5pt;
+  margin: 10pt;
+  text-decoration:solid;
+  color: white;
+}
+.navBar .lowerNav {
+  grid-column: 2/4;
+  grid-row: 2/2;
+  background-color: rgb(174, 179, 179);
+  border-radius: 0pt 0pt 10pt 10pt;
+}
+.navBar .lowerNav form {
+  /* background-color: rgb(45, 197, 134); */
+  display: flex;
+  margin-left: 5pt;
+  margin-right: 5pt;
+}
+.navBar .lowerNav label {
+  padding: 10pt;
+}
+
+.navBar .lowerNav .searchInput {
+  width: 90%;
+  /* background-color:tomato; */
+  padding: 5pt;
+  border-radius: 10pt;
+  border: 0;
+  margin-right: 5pt;
+  margin-left: 10pt;
+}
+.navBar .lowerNav .searchBtn {
+  width: 10%;
+  min-width: 50pt;
+  background-color: rgb(206, 206, 206);
+  border-radius: 100pt;
+  border: 1pt;
+  margin-right: 10pt;
+}
+.imageContainer {
+  /* background-color: blue; */
+  /* grid-row: 1/1; */
+  display: flex;
+justify-content:flex-start;
+}
+.logo {
+  width: 150pt;
+  image-rendering:optimizeQuality;
+  /* align-self: center; */
+}
