@@ -9,7 +9,7 @@
 
 }
 .cardImageContainer {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(252, 252, 252);
   width: 170pt;
   height: 170pt;
   margin: 10pt 15pt 10pt 15pt;
@@ -18,6 +18,18 @@
   grid-row: 1/2;
   
 }
+
+.cardAddBtn {
+  height: 30pt;
+  border-radius: 100%;
+  align-self:flex-start;
+  position:absolute;
+}
+
+.cardAddBtn:hover {
+  background-color: aqua;
+}
+
 
 .cardImageContainer img {
   width: 100%;
@@ -54,5 +66,9 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.card:hover {
+  background-color: rgb(206, 216, 216);
 }
 
